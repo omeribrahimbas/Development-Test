@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.image1{
+
+    object-fit: cover;
+    background-image: url("images/bg1.png");
+    
+}
+.main-image{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+   
+
+}
+
+.swipers{
+    
+    
+display: flex;
+margin-left: 50px;
+
+}
+
+.mySwiper{
+    float: right;
+    width: 40%;
+    margin-left: -50px;
+    
+    
+}
+
+.gothicbold{
+    display: flex;
+    
+}
+
+h1{
+    font:gothicbold;
+}
+
+.button1{border: none;
+    background: none;}
+
+    .link1{
+        color: black;
+        margin-bottom: 15px;
+    }
+    .swiper-wrapper{
+        margin-top: 300px;
+        margin-left: -50px;
+    }
+
+    @media (min-width:320px) and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+      }
+
+      .font1{
+          line-height: -20px;
+          margin-top: 20px;
+      }

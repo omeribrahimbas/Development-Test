@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>E Commerce</title>
+        <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    </head>
+
+    <body>
+        <div class="main-image"><img src="images/bg1.png"> </div>
+            
+          
+        </div>
+         
+        <div class="mySwiper">
+          <div class="font1"> 
+              <h1>Everyday items, we have<br> something to suit every<br> ocassion.</h1>
+              <p>At suspendisse augue lectus arcu, accumsan ut sit posuere <br> vitae sit tincidunt semper eu proin leo gravida cursus.</p>
+              <a href="#" class="link1">Shop all everyday items</a>
+          </div>
+            <div class="swiper-wrapper">
+              <div class="swipers"><img src="images/bg2.png">
+               
+                
+                <div class="swipers"><img src="images/bg3.png">
+                
+                <div class="swipers"><img src="images/bg4.png">
+                 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div></div>
+               
+            </div>   
+           
+        </div>
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+            });
+          </script>
+    
+
+    </body>
+
+
+</html>
